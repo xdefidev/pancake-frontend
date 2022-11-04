@@ -99,11 +99,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
       },
     ],
   },
-  {
-    label: t('IFO'),
-    icon: 'IfoIcon',
-    href: '/ifo',
-  },
+  // {
+  //   label: t('IFO'),
+  //   icon: 'IfoIcon',
+  //   href: '/ifo',
+  // },
   {
     label: t('More'),
     icon: 'MoreIcon',
@@ -124,14 +124,14 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         label: t('Docs'),
         href: 'https://docs.pancakeswap.finance',
       },
-      {
-        label: t('Blog'),
-        href: 'https://pancakeswap.medium.com',
-      },
-      {
-        label: t('Merch'),
-        href: 'https://pancakeswap.creator-spring.com/',
-      },
+      // {
+      //   label: t('Blog'),
+      //   href: 'https://pancakeswap.medium.com',
+      // },
+      // {
+      //   label: t('Merch'),
+      //   href: 'https://pancakeswap.creator-spring.com/',
+      // },
     ],
   },
 ]
