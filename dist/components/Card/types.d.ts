@@ -15,6 +15,7 @@ export declare type CardTheme = {
     cardHeaderBackground: {
         default: string;
         blue: string;
+        bubblegum: string;
         violet: string;
     };
     dropShadow: string;
@@ -25,4 +26,6 @@ export interface CardProps extends SpaceProps, HTMLAttributes<HTMLDivElement> {
     isWarning?: boolean;
     isDisabled?: boolean;
     ribbon?: React.ReactNode;
+    borderBackground?: string;
+    background?: string;
 }

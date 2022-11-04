@@ -5,6 +5,7 @@ export declare type MediaQueries = {
     md: string;
     lg: string;
     xl: string;
+    xxl: string;
     nav: string;
 };
 export declare type Spacing = number[];
@@ -21,6 +22,7 @@ export declare type Shadows = {
     warning: string;
     focus: string;
     inset: string;
+    tooltip: string;
 };
 export declare type Gradients = {
     bubblegum: string;
@@ -29,6 +31,7 @@ export declare type Gradients = {
     blue: string;
     violet: string;
     violetAlt: string;
+    gold: string;
 };
 export declare type Colors = {
     primary: string;
@@ -39,6 +42,7 @@ export declare type Colors = {
     success: string;
     failure: string;
     warning: string;
+    divider: string;
     cardBorder: string;
     contrast: string;
     dropdown: string;
@@ -49,13 +53,17 @@ export declare type Colors = {
     background: string;
     backgroundDisabled: string;
     backgroundAlt: string;
+    backgroundAlt2: string;
     text: string;
     textDisabled: string;
     textSubtle: string;
-    borderColor: string;
+    disabled: string;
     gradients: Gradients;
     binance: string;
     overlay: string;
+    gold: string;
+    silver: string;
+    bronze: string;
 };
 export declare type ZIndices = {
     dropdown: number;
