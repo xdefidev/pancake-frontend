@@ -1,4 +1,3 @@
-import React from "react";
-import { WrapperProps } from "./types";
-declare const Wrapper: React.ForwardRefExoticComponent<WrapperProps & React.RefAttributes<HTMLDivElement>>;
+import { ContainerProps } from "./types";
+declare const Wrapper: import("styled-components").StyledComponent<"div", import("styled-components").DefaultTheme, ContainerProps, never>;
 export default Wrapper;

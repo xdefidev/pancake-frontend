@@ -9,7 +9,6 @@ export declare const shadows: {
     warning: string;
     focus: string;
     inset: string;
-    tooltip: string;
 };
 declare const _default: {
     siteWidth: number;
@@ -23,7 +22,6 @@ declare const _default: {
         warning: string;
         focus: string;
         inset: string;
-        tooltip: string;
     };
     radii: {
         small: string;

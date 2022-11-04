@@ -5,14 +5,10 @@ export interface ThemedProps {
 export declare type Status = "past" | "current" | "future";
 export interface StatusProps extends ThemedProps {
     theme: DefaultTheme;
-    status?: Status;
-    $isFirstStep?: boolean;
-    $isLastStep?: boolean;
-    $isFirstPart?: boolean;
+    status: Status;
 }
 export interface StepProps {
     index: number;
-    statusFirstPart: Status;
-    statusSecondPart?: Status;
+    status: Status;
     numberOfSteps?: number;
 }
